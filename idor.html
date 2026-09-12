@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dossier | The Ravenry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dossier-page">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="The Ravenry home"><span class="brand-mark">R</span><span>The Ravenry</span></a>
+    <nav aria-label="Primary navigation"><a href="index.html">Dispatches</a><a class="active" href="idor.html?id=1">Dossiers</a><a href="idor.html?id=1">The Wall</a></nav>
+    <span class="status"><i></i> Secure channel</span>
+  </header>
+  <main class="dossier-layout">
+    <aside class="dossier-sidebar">
+      <div class="eyebrow">ARCHIVE / DOSSIERS</div>
+      <h1>Raven<br><em>records.</em></h1>
+      <p>Each sealed record has an assigned number. Choose a dispatch to inspect its contents.</p>
+      <div class="record-list">
+        <a href="idor.html?id=1"><span>01</span> The Night's Watch <b>SEALED</b></a>
+        <a href="idor.html?id=2"><span>02</span> Royal intelligence <b>SEALED</b></a>
+        <a href="idor.html?id=3"><span>03</span> House of the Dragon <b>SEALED</b></a>
+      </div>
+      <a class="back-link" href="index.html"><span>&lt;-</span> Return to dispatches</a>
+    </aside>
+    <section class="dossier-content">
+      <div class="dossier-topline"><span>RECORD <strong id="record-id">01</strong></span><span id="record-state">AUTHORIZED VIEW</span></div>
+      <article class="document">
+        <div class="document-header"><span class="document-seal">R</span><div><span class="eyebrow">THE RAVENRY / CLASSIFIED</span><h2 id="record-title">Night's Watch inventory</h2></div><span class="document-date">298 AC</span></div>
+        <div class="document-rule"></div>
+        <p id="record-summary" class="document-lede">A routine inventory of provisions and arms stationed at Castle Black.</p>
+        <div id="record-details" class="document-details"></div>
+        <div class="document-footer"><span>PROPERTY OF THE CITADEL</span><span>DO NOT COPY</span></div>
+      </article>
+      <p class="idor-hint">Record references are loaded from the address bar. Try another record number.</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
